@@ -88,7 +88,7 @@ public class NterminActivity extends Activity {
 			{
 				AlertDialog dlgAlert  = new AlertDialog.Builder(this).create();
 				dlgAlert.setTitle("Termin Speichern");
-				dlgAlert.setMessage("Durch Klicken der + Taste wird der Termin in die Datenbank gespeichert ");
+				dlgAlert.setMessage("Durch Klicken der + Taste wird der Termin in die Datenbank gespeichert! ");
 				dlgAlert.setButton("OK", new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int which) 
 					{
