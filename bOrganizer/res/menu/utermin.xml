@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.borganizer.UterminActivity" >
+
+      <item
+        android:id="@+id/action_monat"
+        android:orderInCategory="10"
+        android:showAsAction="never"
+        android:title="Monatsansicht"/>
+          
+      <item
+        android:id="@+id/action_ntermin"
+        android:orderInCategory="20"
+        android:showAsAction="never"
+        android:title="Neuer Termin"/>
+      
+      <item
+        android:id="@+id/action_ltermin"
+        android:orderInCategory="30"
+        android:showAsAction="never"
+        android:title="Termin Löschen"/>
+    
+     
+    <item
+        android:id="@+id/action_einstell"
+        android:orderInCategory="90"
+        android:showAsAction="never"
+        android:title="Einstellungen"/>
+    
+      <item
+        android:id="@+id/action_ende"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Beenden"/>
+
+</menu>

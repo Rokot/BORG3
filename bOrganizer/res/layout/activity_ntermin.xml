@@ -1,0 +1,132 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.borganizer.UterminActivity"
+    tools:ignore="MergeRootFrame" >
+ 
+ 
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textTName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terminname" />
+
+    <EditText
+        android:id="@+id/tbxTName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textTArt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Art des Termins (Firma, Abteilung, Privat)" />
+
+    <EditText
+        android:id="@+id/editTArt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textZeit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zeit" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:inputType="time" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textDatum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Datum" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:inputType="date" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+
+
+ 
+
+</FrameLayout>
+
+
+<!--  
+<ScrollView
+        android:id="@+id/id_Scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+ <HorizontalScrollView
+            android:id="@+id/id_hScroll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+             <TableLayout 
+                android:id="@+id/id_mainTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                 
+             </TableLayout>
+         </HorizontalScrollView>
+<ScrollView>
+
+-->

@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.borganizer.EinstellActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnlog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anmelden" />
+
+        <TextView
+            android:id="@+id/textTArt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:id="@+id/textTName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DB-Server" />
+
+        <EditText
+            android:id="@+id/tbxTName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        
+        <Button
+            android:id="@+id/btnserver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verbinden" />
+
+        <TextView
+            android:id="@+id/textBName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        <CheckBox
+            android:id="@+id/chbxton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Benachrichtigungston" />
+
+    </LinearLayout>
+
+</FrameLayout>
+

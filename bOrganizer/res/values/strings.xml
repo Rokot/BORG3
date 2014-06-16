@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Business Organizer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_ntermin">Neuer Termin</string>
+    <string name="title_activity_utermin">Terminübersicht</string>
+    <string name="title_activity_einstell">Einstellungen</string>
+    <string name="title_activity_ltermin">Termin Löschen</string>
+    <string name="title_activity_login">Anmelden</string>
+    <string name="action_settings">Settings</string>
+	
+</resources>
