@@ -7,34 +7,20 @@
     tools:ignore="MergeRootFrame" >
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical" >
-
-        <EditText
-            android:id="@+id/editText1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="time" >
-
-            <requestFocus />
-        </EditText>
-
-        <EditText
-            android:id="@+id/editTArt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="date" />
-
-        <EditText
-            android:id="@+id/editText3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName" />
-
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:orientation="vertical">
+<Button
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:onClick="onButtonClick"
+ android:text="@string/add_record">
+</Button>
+<ListView
+ android:id="@+id/lvData"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content">
+</ListView>
     </LinearLayout>
 
 </FrameLayout>
