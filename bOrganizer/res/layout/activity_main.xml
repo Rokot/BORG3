@@ -66,13 +66,13 @@
                         android:text="TextView" />
 
                     <TextView
-                        android:id="@+id/textZeit"
+                        android:id="@+id/textAZeit"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="TextView" />
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/textEZeit"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="TextView" />

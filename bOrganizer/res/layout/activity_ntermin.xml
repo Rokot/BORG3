@@ -22,6 +22,18 @@
         android:layout_height="wrap_content" />
 
     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID" />
+
+    <EditText
+        android:id="@+id/txtMitarbeiterID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
         android:id="@+id/textTName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -68,14 +80,31 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textZeit"
+                android:id="@+id/textAZeit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Zeit" />
+                android:text="Anfangszeit" />
 
             <EditText
-                android:id="@+id/editText1"
+                android:id="@+id/editAZeit"
                 android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:inputType="time" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textEZeit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Endzeit" />
+
+            <EditText
+                android:id="@+id/editEZeit"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="time" />
 
@@ -87,15 +116,33 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textDatum"
+                android:id="@+id/textADatum"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Datum" />
+                android:text="Anfangsdatum" />
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/editADatum"
                 android:layout_width="216dp"
                 android:layout_height="wrap_content"
+                android:inputType="date" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textEDatum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enddatum" />
+
+            <EditText
+                android:id="@+id/editEDatum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
                 android:inputType="date" />
 
         </LinearLayout>
@@ -110,23 +157,3 @@
 
 </FrameLayout>
 
-
-<!--  
-<ScrollView
-        android:id="@+id/id_Scroll"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
- <HorizontalScrollView
-            android:id="@+id/id_hScroll"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
-             <TableLayout 
-                android:id="@+id/id_mainTable"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                 
-             </TableLayout>
-         </HorizontalScrollView>
-<ScrollView>
-
--->
